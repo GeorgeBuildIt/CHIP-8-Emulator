@@ -13,10 +13,7 @@ Ctrl + P (pause rom)
 
 CHIP-8 Control scheme:
 
-1 2 3 4  ->  1 2 3 4
-Q W E R  ->  4 5 6 C
-A S D F  ->  7 8 9 D
-Z X C V  ->  A 0 B F
+<img width="143" height="84" alt="image" src="https://github.com/user-attachments/assets/093d7dba-1262-4ae9-a670-b1e9eab7bb42" />
 
 (keyboard -> chip-8 keypad)
 
