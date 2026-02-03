@@ -1,9 +1,9 @@
 # CHIP-8-Emulator
-My lightweight CHIP-8 emulator created with pygame and tkinter which has support for per game profiles as well as automatically categorising ROMs by type due to folder structures and favourites stored locally in a database using sqlite3.
+My lightweight CHIP-8 emulator created with pygame and tkinter which has support for per game profiles as well as automatically categorising ROMs by folder structures and favourites stored locally in a database using sqlite3.
 Contains all CHIP-8 features with binary 64x32 display, simple buzz audio (diable optional) as well as the CHIP-8 keypad mapped to the top left of the keyboard
 
 #----Key Features----#           
-Library manager which automatically scans the /ROMS directory and supports subfolders if you wanted games to be categorised by genre/ROM type etc. 
+Library manager which automatically scans the /ROMS directory and supports subfolders if you wanted games to be categorised by genre/ROM type etc where the subfolder name will become a header in the library window. 
 Per game profiles where you can assign specific settings to individual ROMs such as the games' clock speed, colour scheme, muted audio as well as some extra features like a CRT ghosting effect as well as a rainbow FG colour mode.
 SQLite3 Backend which uses a local database (settings.db) to store the aforementioned per game profiles as well as favourite ROMs which will appear at the top of the library where a link table between roms and profiles is also used so that games specific profiles will be saved.       
 Hotkeys:          
